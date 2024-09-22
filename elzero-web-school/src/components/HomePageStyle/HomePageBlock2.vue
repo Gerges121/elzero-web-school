@@ -159,4 +159,91 @@ export default {
   left: 20px;
   top: 30px;
 }
+
+
+@media screen and (max-width: 1440px) {
+  .section3-content {
+    position: absolute;
+    top: 8%;
+  }
+  .columns-container{
+    position: absolute;
+    left: 90px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .columns-container {
+    width: 0%;
+    position: absolute;
+    left: 13%;
+  }
+  .column {
+    padding-right: 400px;
+  }
+  .column h3{
+    position: absolute;
+    top: 40px;
+  }
+}
+@media screen and (max-width: 768px){
+  .columns-container {
+    position: absolute;
+    left: 30px
+  }
+  .column h3{
+    font-size: 17px;
+  }
+  .column {
+
+    padding-right: 350px;
+  }
+  .progress-bar {
+    position: relative;
+    bottom: 50%;
+    right: 150%;
+  }
+  .consulting {
+    position: relative;
+    bottom: 220px;
+    right: 280px;
+  }
+  .advices {
+    position: relative;
+    bottom: 220px;
+    right: 280px;
+  }
+}
+
+@media screen and (max-width: 452px)
+{
+  .columns-container{
+    height: 0px;
+    position: absolute;
+    top: 600px;
+    left: 0px;
+  }
+  .columns {
+    padding: 10px;
+  }
+  .section3-content h2{
+    font-size: 15px;
+    font-weight: bold;
+    width: 120%;
+  }
+  .section3-content p{
+
+    width: 130%;
+  }
+  .section3{
+    padding: 349px;
+  }
+
+  .progress-bar{
+    position: relative;
+    top: -200px;
+  }
+}
+
+
 </style>

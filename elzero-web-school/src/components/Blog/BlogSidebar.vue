@@ -20,7 +20,7 @@
     </div>
   </div>
 </template>
-/**/
+
 <script>
 export default {
   name: `blog_sidebar`,

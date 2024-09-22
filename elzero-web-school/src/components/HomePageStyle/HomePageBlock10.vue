@@ -37,4 +37,23 @@ export default {
   bottom: 50%;
   margin-bottom: 100px;
 }
+@media screen and (max-width: 1024px) {
+  .last {
+    display: grid;
+    width: 80%;
+    left: 20%;
+    bottom: 10%;
+  }
+  .last i{
+    bottom: 140%;
+  }
+}
+
+@media screen and (max-width: 425px){
+
+  .last {
+    position: relative;
+    width: 145%;
+  }
+}
 </style>

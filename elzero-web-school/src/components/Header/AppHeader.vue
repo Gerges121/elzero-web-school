@@ -21,8 +21,9 @@
       <div class="line1"></div>
       <div class="search-icon">
         <button type="submit"><i class="fa fa-search"></i></button>
-        <div class="line2"></div>
       </div>
+
+      <div class="line2"></div>
       <div class="contact">
         <p style="text-align: left;">Need Help?</p>
         <p style="text-align: left;">+92 666 888 0000</p>
@@ -119,7 +120,6 @@ ul {
   float: right;
   right: 185px;
   position: absolute;
-    margin-top: 25px;
 }
 
 .contact {
@@ -136,7 +136,7 @@ ul {
   background-color: white;
   transform: rotate(180deg);
   float: right;
-  left: 450px;
+  left: 560px;
   position: relative;
 
 }
@@ -170,4 +170,70 @@ ul {
   box-shadow: 0px 0px 10px grey;
 }
 
+@media screen and (max-width: 1440px) {
+ .AppHeader{
+   width: 100%;
+ }
+  .line1{
+    position: absolute;
+    left: 88.5%;
+  }
+  .line2{
+    position: absolute;
+    right: 16.5%;
+    top: 10%;
+  }
+  .search-icon{
+    position: absolute;
+    right: 0%;
+    bottom: 10px;
+    left: 20px;
+    top: 5px;
+  }
+  .social-icons{
+    position: absolute;
+  }
+  .text-right{
+    position: absolute;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .line1 {
+    position: relative;
+    left: -180px
+  }
+}
+  @media screen and (max-width: 768px){
+  .AppHeader{
+    width: 100%;
+    height: 100px;
+  }
+    .text-right {
+      margin: 30px;
+    }
+    .contact {
+      right: 0px;
+    }
+    .line2 {
+      right: 140px;
+    }
+    .search-icon {
+      left: 40px;
+    }
+    .social-icons a{
+      margin: 5px;
+      position: absolute;
+      bottom: -30px;
+    }
+}
+@media screen and (max-width: 425px){
+  .search-icon {
+    right: -20px;
+  }
+    .text-right li{
+      margin: -10px;
+      position: relative;
+      left: 40px;
+    }
+}
 </style>

@@ -100,9 +100,126 @@ font-weight: bold;
   top: 20px;
   color: #8F8DA0;
 }
-@media screen and (max-width: 600px){
-  whatthey, whatboxes, tod, div{
-    width: 100%;
+
+@media screen and (max-width: 1440px){
+  .todd1{
+    position: absolute;
+    top: 10px;
+    width: 200px;
+    left: -60px;
+  }
+  .todd1 p{
+    position: absolute;
+    width: 200px;
+    left: -10px;
+  }
+  .todd2{
+    position: absolute;
+    left: 300px;
+    top: 10px;
+    width: 200px;
+  }
+  .todd2 p{
+    position: absolute;
+    left: 50px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .whatthey h2{
+    position: absolute;
+    left: 10%;
+  }
+  .whatthey p{
+    position: absolute;
+    left: 10%;
+  }
+  .fa-arrow-right{
+    position: absolute;
+    left: 20%;
+  }
+  .fa-arrow-left{
+    position: absolute;
+    left: 10%;
+  }
+  .whatboxes {
+    width: 60%;
+
+  }
+  .whatboxes div{
+    height: 400px;
+  }
+  .tod {
+    position: absolute;
+    bottom: 30%;
+  }
+  .todd1 {
+    position: absolute;
+    left: -30px;
+  }
+  .todd1 p{
+    position: absolute;
+    left: -15px;
+  }
+  .todd2 {
+    position: absolute;
+    left: 280px;
+  }
+  .todd2 p{
+    position: absolute;
+    left: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .whatthey h2{
+    width: 90%;
+    font-size: 30px;
+  }
+  .whatthey p{
+    top: 100px;
+  }
+  .fa-arrow-right {
+    top: 130px;
+  }
+  .fa-arrow-left {
+    top: 130px;
+  }
+  .whatboxes {
+    width: 80%;
+    left: 100px;
+    padding-top: 40px;
+  }
+  .whatboxes div{
+    width: 80%;
+    height: 350px;
+    position: relative;
+    top: 20% ;
+  }
+  .tod {
+    position: absolute;
+  }
+  .todd1 {
+    position: absolute;
+    top: 90px;
+    left: -230px;
+
+  }
+  .tod p{
+    position: absolute;
+    top: 20px;
+  }
+  .todd2 {
+    position: absolute;
+    top: 90px;
+    left: 80px;
+  }
+}
+@media screen and (max-width: 425px){
+
+  .whatthey {
+    position: relative;
+    width: 165%;
   }
 }
 </style>

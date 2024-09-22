@@ -46,4 +46,9 @@ export default {
   padding: 20px;
 }
 
+@media screen and (max-width: 425px) {
+  .styled-block {
+    padding-right: 490px;
+  }
+}
 </style>

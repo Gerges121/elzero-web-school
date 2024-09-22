@@ -171,4 +171,48 @@ app.mount('#app');
   border-radius: 10px;
 }
 
+@media screen and (max-width: 1440px) {
+  .exp {
+    position: absolute;
+    right: 10%;
+    bottom: 45%;
+  }
+  .checked{
+    position: absolute;
+    right: 25%;
+    bottom: 36%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .checked {
+    position: absolute;
+    top: 30%;
+    left: 65%;
+  }
+  .checked p{
+    width: 300px;
+  }
+}
+@media screen and (max-width: 768px){
+.checked p{
+  position: relative;
+  top: 400px;
+  left: -300px;
+}
+  .exp {
+    bottom: 25%;
+  }
+  .question h3{
+    font-size: 17px;
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 425px){
+
+  .qa {
+    position: relative;
+    width: 165%;
+  }
+}
 </style>

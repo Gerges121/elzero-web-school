@@ -115,4 +115,57 @@ position: absolute;
   color: #3C72FC;
   padding: 150px;
 }
+
+@media screen and (max-width: 1440px) {
+  .case-container{
+    position: absolute;
+    left: 17%;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .case-container{
+    position: relative;
+    display: inline-flex;
+    width: 90%;
+    left: 0;
+    top: 500px;
+  }
+  .case-header{
+    position: absolute;
+    right: 35%;
+  }
+  .case-box{
+      height: 100%;
+    position: relative;
+    left: 20px;
+    bottom: 100px;
+  }
+}
+@media screen and (max-width: 768px){
+.case-header {
+  right: 30%;
+}
+    .case-container {
+      width: 100%;
+      left: -10px;
+    }
+    .blue {
+      padding: 110px;
+    }
+    .case-icon {
+      bottom: 180px;
+    }
+    .case-box p{
+      bottom: 110px;
+    }
+}
+@media screen and (max-width: 425px){
+
+  .case-studies {
+    position: relative;
+    width: 165%;
+  }
+}
+
 </style>

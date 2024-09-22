@@ -159,4 +159,90 @@ export default {
   margin-right: 10px;
   font-size: 30px;
 }
+
+@media screen and (max-width: 1440px)
+{
+  .subscribe button{
+    position: absolute;
+    left: 65%;
+  }
+
+  .fnav {
+    position: relative;
+    left: 42%;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .logo{
+   left: 60px;
+  }
+  .inf p{
+    position: relative;
+    right: 30%;
+    width: 90%;
+    line-height: 30px;
+  }
+  .lcontacticons i {
+    position: relative;
+    right: 50%;
+  }
+  .fnav p {
+    position: relative;
+    right: 50%;
+  }
+  .subscribe {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 768px){
+  .inf p{
+    width: 70%;
+    position: relative;
+    top: 40px;
+  }
+  .lcontacticons{
+    bottom: 10px;
+  }
+  .subscribe {
+    padding: 70px;
+    width: 35%;
+    left: 490px;
+    bottom: 150px;
+  }
+  .subscribe p{
+    width: 100%;
+    bottom: 60px;
+  }
+  .subscribe input{
+     bottom: 80px;
+   }
+  .subscribe button{
+    bottom: 40px;
+    left: 110px;
+  }
+
+}
+
+@media screen and (max-width: 425px){
+
+  .footer {
+    position: relative;
+    width: 165%;
+    height: 500px;
+  }
+  .subscribe {
+    position: absolute;
+    bottom: 200px;
+    left: 440px;
+  }
+  .fnav2 {
+    position: absolute;
+    top: 53%;
+    left: 35%;
+  }
+  .inf p{
+    width: 200px;
+  }
+}
 </style>

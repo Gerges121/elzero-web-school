@@ -105,4 +105,41 @@ export default {
 
 }
 
+@media screen and (max-width: 1440px) {
+  .cs {
+    position: relative;
+    right: 70px;
+  }
+  .BGbox{
+    position: absolute;
+    left: 25%;
+  }
+}
+@media screen and (max-width: 1024px){
+  .cs {
+    position: relative;
+    width: 20%;
+    top: 60px;
+  }
+  .cs p{
+    position: absolute;
+    left: 60%;
+  }
+  .BGbox {
+    left: 130px;
+  }
+}
+@media screen and (max-width: 768px){
+  .BGbox {
+    left: 60px;
+    right: 60px;
+  }
+}
+@media screen and (max-width: 425px){
+
+  .black {
+    position: relative;
+    width: 165%;
+  }
+}
 </style>
